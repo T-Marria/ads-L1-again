@@ -9,6 +9,7 @@ public:
 	Matrix();
 	Matrix(int rows, int columns);
 	Matrix(Matrix& rhs);
+	~Matrix();
 	int GetRows() const;
 	int GetCols() const;
 	double& operator () (int i, int j);
